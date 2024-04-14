@@ -40,7 +40,7 @@ export default function Safe({ key2Acquired, handleSafeSubmit }) {
                             onChange={handleChange}
                             maxLength={4}
                         />
-                        <button onClick={handleTryClick}>
+                        <button onClick={handleTryClick} className="rounded-full px-4 py-2 bg-green-500 hover:bg-green-700 focus:outline-none focus:ring focus:ring-green-500 focus:ring-opacity-50">
                             Try
                         </button>
                     </div>
